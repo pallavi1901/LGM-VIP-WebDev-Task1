@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pallavi Foods| pallavifoods.com</title>
+    <link rel="stylesheet"  href="css/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="image/logo.PNG" alt="pallavifoods.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">About us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+        <section id="home">
+            <h1 class="h-primary">Welcome to Pallavi Foods</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae amet eaque nisi corporis quibusdam, perspiciatis quas eius aspernatur quam illo est ipsa, cum iste eligendi! Voluptatum consectetur ab mollitia tempora.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum quaerat, voluptas vel officia culpa aperiam molestiae repellendus eveniet ipsa. Sit vitae ea tenetur voluptates tempora aut iure neque expedita.</p>
+            <bottom class="btn">Order now</bottom>
+        </section>
+
+        <section class="services-container">
+            <h1 class="h-primary center">Our Services</h1>
+            <div id="services">
+                <div class="box">
+                   <img src="image/food catering.jpg" alt=""/> 
+                   <h2 class="h-secondary center">Food Catering</h2>
+                   <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci, tempore debitis optio cupiditate ipsa non vel autem reprehenderit beatae eveniet nihil fugiat saepe illum dicta dolorum animi! Dolore, qui.</p>
+                </div>
+                <div class="box">
+                   <img src="image/bulk ordering.png" alt=""/> 
+                   <h2 class="h-secondary center">Bulk Ordering</h2>
+                   <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci, tempore debitis optio cupiditate ipsa non vel autem reprehenderit beatae eveniet nihil fugiat saepe illum dicta dolorum animi! Dolore, qui.</p>
+                </div>
+                <div class="box">
+                   <img src="image/delivery2.jpg" alt=""/> 
+                   <h2 class="h-secondary center">Food Ordering</h2>
+                   <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci, tempore debitis optio cupiditate ipsa non vel autem reprehenderit beatae eveniet nihil fugiat saepe illum dicta dolorum animi! Dolore, qui.</p>
+                </div>
+            </div>
+        </section>    
+        <section id="client-section">
+            <h1 class="h-primary center">Our Clients</h1>
+            <div id="clients">
+                <div class="client-item">
+                   <img src="image/clients.png" alt="Our Cliemts">
+                </div>
+                <div class="client-item">
+                   <img src="image/clients2.jpg" alt="Our Cliemts">
+                </div>    
+                <div class="client-item">
+                   <img src="image/clients1.png" alt="Our Cliemts">
+                </div>
+                <div class="client-item">
+                   <img src="image/clients3.jpg" alt="Our Cliemts">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact">
+            <h1 class="h-primary center">Contact Us</h1>
+            <div id="contact-box">
+                <form onsubmit="event.preventDefault();onSubmit();">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">   
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="name" id="email" placeholder="Enter your email id">   
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="phone" name="name" id="phone" placeholder="95******32">   
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>   
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>  
+            </div>
+        </section>
+
+        <footer>
+            <div class="center">
+                Copyright &copy; www.pallavifoods.com. All rights are reserved!
+            </div>
+                
+        </footer>
+
+        <script src="./js/contact.js"></script>
+</body>
+</html>
